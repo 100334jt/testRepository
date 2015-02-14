@@ -15,7 +15,7 @@ namespace testProject.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "my test project in a branch";
 
             return View();
         }
