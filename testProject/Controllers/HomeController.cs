@@ -10,6 +10,7 @@ namespace testProject.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Hello world";
             return View();
         }
 
@@ -25,6 +26,11 @@ namespace testProject.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public String SayHello()
+        {
+            return "Hello world";
         }
     }
 }
